@@ -29,3 +29,5 @@ let obj = {
 };
 
 console.log(1==obj);//false
+
+console.log(!!' '+!!''-!!false||'未通过');//1
